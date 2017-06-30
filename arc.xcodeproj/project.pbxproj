@@ -12,6 +12,8 @@
 		D9B75B691F06B9A7006635BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B75B671F06B9A7006635BB /* Main.storyboard */; };
 		D9B75B6B1F06B9A7006635BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B75B6A1F06B9A7006635BB /* Assets.xcassets */; };
 		D9B75B6E1F06B9A7006635BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B75B6C1F06B9A7006635BB /* LaunchScreen.storyboard */; };
+		D9B75B761F06BA0B006635BB /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B75B751F06BA0B006635BB /* CounterView.swift */; };
+		D9B75B781F06D1E0006635BB /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B75B771F06D1E0006635BB /* PushButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D9B75B6A1F06B9A7006635BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B75B6D1F06B9A7006635BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9B75B6F1F06B9A7006635BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B75B751F06BA0B006635BB /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		D9B75B771F06D1E0006635BB /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D9B75B6A1F06B9A7006635BB /* Assets.xcassets */,
 				D9B75B6C1F06B9A7006635BB /* LaunchScreen.storyboard */,
 				D9B75B6F1F06B9A7006635BB /* Info.plist */,
+				D9B75B751F06BA0B006635BB /* CounterView.swift */,
+				D9B75B771F06D1E0006635BB /* PushButtonView.swift */,
 			);
 			path = arc;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				D9B75B661F06B9A7006635BB /* ViewController.swift in Sources */,
 				D9B75B641F06B9A7006635BB /* AppDelegate.swift in Sources */,
+				D9B75B781F06D1E0006635BB /* PushButtonView.swift in Sources */,
+				D9B75B761F06BA0B006635BB /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
